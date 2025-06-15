@@ -37,9 +37,7 @@ pip install opencv-python imutils numpy pytesseract
 1.	Make sure Carplate.JPG is in the project directory.
 2. Run the script
 
-`python license_plate_detection.py`
-   
----
+```python license_plate_recognition.py --image Carplate.JPG```
 
 ## ⚠️ Limitations
 - Works best with clear, high-resolution images taken from the front or rear.
